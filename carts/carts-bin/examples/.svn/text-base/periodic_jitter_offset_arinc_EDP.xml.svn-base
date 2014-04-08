@@ -1,0 +1,19 @@
+<system os-scheduler="DM" >
+<component max_period="6250" min_period="6250" scheduler="DM" name="PART15 ID=15" vmips="0" >
+<task name="t1" jitter="10" p="6250" e="3255" d="6250" />
+<task name="t2" jitter="1000" p="200000" e="0" d="200000" />
+<task name="t3" jitter="1000" p="100000" e="0" d="100000" />
+<task name="t4" jitter="1000" p="25000" e="0" d="25000" />
+<task name="t5" jitter="1000" p="50000" e="0" d="50000" />
+</component>
+<component max_period="200000" min_period="200000" scheduler="DM" name="PART13 ID=13" vmips="0.6" >
+<task name="t6" jitter="1000" p="200000" e="282" d="200000" />
+<task name="t7" jitter="1000" p="200000" e="863" d="200000" />
+<task name="t8" jitter="1000" p="200000" e="500" d="200000" />
+<task name="t9" jitter="1000" p="200000" e="607" d="200000" />
+</component>
+<component max_period="25000" min_period="25000" scheduler="DM" name="PART12 ID=12" vmips="0.2" >
+<task name="t10" jitter="1000" p="100000" e="500" d="100000" />
+<task name="t11" p="25000" d="25000" e="0" jitter="1000" />
+</component>
+</system>

@@ -1,0 +1,51 @@
+<component name="system" resource_model="MPR2 model" >
+<resource>
+<model cpus="15" period="16" execution_time="238"> </model> 
+</resource> 
+<processed_task> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="16" deadline="16" > </model> 
+<model period="16" execution_time="15" deadline="16" > </model> 
+<model period="16" execution_time="15" deadline="16" > </model> 
+</processed_task> 
+<component name="VM3" resource_model="MPR2 model" >
+<resource>
+<model cpus="9" period="64" execution_time="564"> </model> 
+</resource> 
+<processed_task> 
+<model period="64" execution_time="63" deadline="64" > </model> 
+<model period="64" execution_time="63" deadline="64" > </model> 
+<model period="64" execution_time="63" deadline="64" > </model> 
+<model period="64" execution_time="63" deadline="64" > </model> 
+<model period="64" execution_time="63" deadline="64" > </model> 
+<model period="64" execution_time="63" deadline="64" > </model> 
+<model period="64" execution_time="62" deadline="64" > </model> 
+<model period="64" execution_time="62" deadline="64" > </model> 
+<model period="64" execution_time="62" deadline="64" > </model> 
+</processed_task> 
+</component>
+<component name="VM6" resource_model="MPR2 model" >
+<resource>
+<model cpus="6" period="64" execution_time="375"> </model> 
+</resource> 
+<processed_task> 
+<model period="64" execution_time="63" deadline="64" > </model> 
+<model period="64" execution_time="63" deadline="64" > </model> 
+<model period="64" execution_time="63" deadline="64" > </model> 
+<model period="64" execution_time="62" deadline="64" > </model> 
+<model period="64" execution_time="62" deadline="64" > </model> 
+<model period="64" execution_time="62" deadline="64" > </model> 
+</processed_task> 
+</component>
+</component>

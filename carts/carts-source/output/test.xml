@@ -1,0 +1,33 @@
+<component name="system" resource_model="MPR2 model" >
+<resource>
+<model cpus="0" period="1" execution_time="2047483647"> </model> 
+</resource> 
+<processed_task> 
+<model period="1" execution_time="2047483647" deadline="1" > </model> 
+</processed_task> 
+<component name="JVM" resource_model="MPR2 model" >
+<resource>
+<model cpus="1" period="1" execution_time="1"> </model> 
+</resource> 
+<processed_task> 
+<model period="1" execution_time="1" deadline="1" > </model> 
+</processed_task> 
+</component>
+<component name="Digital Controller" resource_model="MPR2 model" >
+<resource>
+<model cpus="1" period="1" execution_time="1"> </model> 
+</resource> 
+<processed_task> 
+<model period="1" execution_time="1" deadline="1" > </model> 
+</processed_task> 
+</component>
+<component name="Multimedia" resource_model="MPR2 model" >
+<resource>
+<model cpus="1" period="1" execution_time="1"> </model> 
+</resource> 
+<processed_task> 
+<model period="1" execution_time="1" deadline="1" > </model> 
+</processed_task> 
+</component>
+</component>
+

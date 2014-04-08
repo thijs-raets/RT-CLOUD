@@ -1,0 +1,7 @@
+<system os_scheduler="DM"	min_period="1"	max_period="1">
+<component name="comp1"	scheduler="DM"	min_period="15"	max_period="15">
+<task name="t1" p="30" d="30" e="2" cs="0">	</task>
+<task name="t1" p="32" d="32" e="1" cs="1">	</task>
+<task name="t1" p="80" d="80" e="4" cs="4">	</task>
+</component>
+</system>
