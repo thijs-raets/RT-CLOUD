@@ -1,0 +1,9 @@
+C:\Users\Thijs\Documents\ICT\thesis\praktisch\carts\carts-source>java -cp build
+Carts C:\Users\Thijs\Documents\ICT\thesis\praktisch\carts\carts-source\examples\
+periodic_os_scheduler.xml MPR2 C:\Users\Thijs\Documents\ICT\thesis\praktisch\car
+ts\carts-source\output\test.xml
+
+
+C:\Users\Thijs\Documents\ICT\thesis\praktisch\carts\carts-source>java -cp build
+Carts D:\bu\Users\Thijs\workspace\thesis_multicore\interfaceIn.xml MPR2 D:\bu\Us
+ers\Thijs\workspace\thesis_multicore\interfaceOut.xml

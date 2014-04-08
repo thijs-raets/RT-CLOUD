@@ -1,0 +1,26 @@
+<system os_scheduler="gEDF" period="16.0">
+    <component scheduler="gEDF" name="VM3" period="64" u="3.500000" period_min="700" period_max="800">
+        <task name="T6" p="708" d="708" e="487" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T10" p="712" d="712" e="69" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T7" p="720" d="720" e="198" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T5" p="725" d="725" e="91" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T4" p="735" d="735" e="301" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T9" p="752" d="752" e="36" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T0" p="762" d="762" e="83" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T1" p="770" d="770" e="570" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T3" p="770" d="770" e="357" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T2" p="777" d="777" e="227" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T8" p="778" d="778" e="195" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+    </component>
+    <component scheduler="gEDF" name="VM6" period="64" u="2.600000" period_min="600" period_max="700">
+        <task name="T19" p="601" d="601" e="12" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T13" p="604" d="604" e="249" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T11" p="613" d="613" e="464" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T15" p="623" d="623" e="165" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T18" p="638" d="638" e="28" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T17" p="662" d="662" e="10" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T14" p="667" d="667" e="406" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T16" p="672" d="672" e="160" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+        <task name="T12" p="676" d="676" e="154" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.9" />
+    </component>
+</system>

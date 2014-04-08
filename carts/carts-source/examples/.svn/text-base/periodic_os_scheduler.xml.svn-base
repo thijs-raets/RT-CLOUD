@@ -1,0 +1,13 @@
+<system os_scheduler="EDF"	min_period="1"	max_period="1">
+<component name="JVM"	scheduler="EDF"	min_period="1"	max_period="1">
+<task name="J1" p="50" d="50" e="3" cs="0">	</task>
+<task name="J2" p="75" d="75" e="5" cs="0">	</task>
+</component>
+<component name="Digital Controller"	scheduler="DM"	min_period="1"	max_period="1">
+<task name="T1" p="25" d="25" e="1" cs="0">	</task>
+<task name="T1" p="25" d="25" e="1" cs="0">	</task>
+</component>
+<component name="Multimedia"	scheduler="EDF"	min_period="1"	max_period="1">
+<task name="T2" p="33" d="33" e="10" cs="0">	</task>
+</component>
+</system>

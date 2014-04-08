@@ -1,0 +1,23 @@
+<system os_scheduler="EDF"	min_period="1"	max_period="1">
+	<component name="comp1"	scheduler="EDF"	min_period="15"	max_period="15">
+		<task name="t1" p="300" d="300" e="2" cs="0">	</task>
+		<task name="t2" p="320" d="320" e="1" cs="0">	</task>
+		<task name="t3" p="800" d="800" e="4" cs="0">	</task>
+	</component>
+	<component name="comp2"	scheduler="DM"	min_period="15"	max_period="15">
+		<component name="comp3"	scheduler="DM"	min_period="30"	max_period="30">
+			<component name="comp4"	scheduler="EDF"	min_period="50"	max_period="50">
+				<task name="t4" p="810" d="810" e="2" cs="0">	</task>
+				<task name="t5" p="450" d="450" e="3" cs="0">	</task>
+			</component>
+			<component name="comp5"	scheduler="DM"	min_period="50"	max_period="50">
+				<task name="t6" p="1600" d="1600" e="21" cs="0">	</task>
+				<task name="t7" p="500" d="500" e="9" cs="0">	</task>
+			</component>
+		</component>
+		<component name="comp6"	scheduler="DM"	min_period="30"	max_period="30">
+			<task name="t8" p="3200" d="3200" e="25" cs="0">	</task>
+			<task name="t9" p="1600" d="1600" e="15" cs="0">	</task>
+		</component>
+	</component>
+</system>

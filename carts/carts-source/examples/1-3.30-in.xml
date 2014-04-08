@@ -1,0 +1,16 @@
+<system os_scheduler="gEDF" period="16.0"> 
+	<component name="C0" scheduler="gEDF" period="256"> 
+		 <task name="T0" p="622" d="622" e="148" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.09" > </task>
+		 <task name="T4" p="778" d="778" e="582" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.09" > </task>
+	</component>
+	<component name="C1" scheduler="gEDF" period="128"> 
+		 <task name="T1" p="749" d="749" e="553" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.09" > </task>
+		 <task name="T5" p="700" d="700" e="456" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.09" > </task>
+	</component>
+	<component name="C2" scheduler="gEDF" period="64"> 
+		 <task name="T2" p="737" d="737" e="358" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.09" > </task>
+	</component>
+	<component name="C3" scheduler="gEDF" period="32"> 
+		 <task name="T3" p="678" d="678" e="297" delta_rel="0" delta_sch="0" delta_cxs="0" delta_crpmd="0.09" > </task>
+	</component>
+</system>
